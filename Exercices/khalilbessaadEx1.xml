@@ -1,0 +1,58 @@
+<!-- DTD has books and articles. -->
+<!-- A book has a general title, names of its authors, his tomes (for each tome its number of pages), general information about the edition (name of the editor, edition location, print location and its ISBN number.) -->
+<!-- An article has a title, names of its authors, publication refrence: journal name, number of pages, publication year and journal number. It can also have a personnal opinion -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bibliography [
+    <!ELEMENT bibliography (book | article)*>
+    <!ELEMENT book (title, author+, tome+, edition, opinion?)>
+    <!ELEMENT article (title, author+, publication, opinion?)>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT author (#PCDATA)>
+    <!ELEMENT tome (pages)>
+    <!ELEMENT pages (#PCDATA)>
+    <!ELEMENT edition (editor, location, print, isbn)>
+    <!ELEMENT editor (#PCDATA)>
+    <!ELEMENT location (#PCDATA)>
+    <!ELEMENT print (#PCDATA)>
+    <!ELEMENT isbn (#PCDATA)>
+    <!ELEMENT publication (journal, pages, year, number)>
+    <!ELEMENT journal (#PCDATA)>
+    <!ELEMENT year (#PCDATA)>
+    <!ELEMENT number (#PCDATA)>
+    <!ELEMENT opinion (#PCDATA)>
+]>
+
+<bibliography>
+    <book>
+        <title>Harry Potter</title>
+        <author>J.K. Rowling</author>
+        <tome>
+            <pages>300</pages>
+        </tome>
+        <tome>
+            <pages>400</pages>
+        </tome>
+        <tome>
+            <pages>500</pages>
+        </tome>
+        <edition>
+            <editor>John Doe</editor>
+            <location>London</location>
+            <print>Paris</print>
+            <isbn>123456789</isbn>
+        </edition>
+    </book>
+    <article>
+        <title>XML</title>
+        <author>John Doe</author>
+        <author>John Doe</author>
+        <publication>
+            <journal>XML Journal</journal>
+            <pages>10</pages>
+            <year>2018</year>
+            <number>1</number>
+        </publication>
+        <opinion>Good</opinion>
+    </article>
+</bibliography>

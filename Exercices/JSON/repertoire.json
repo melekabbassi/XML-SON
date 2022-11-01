@@ -1,0 +1,77 @@
+{
+    "repertoire":{
+        "personnes":[[
+        {
+            "sexe":"masculin",
+            "nom": "DOE",
+            "prenom": "John",
+            "adresse": {
+                "numero":7,
+                "voie":{
+                    "type":"impasse",
+                    "nom":"des lilas"
+                },
+                "codePostal": 75000,
+                "ville": "Paris",
+                "pays": "France"
+            },
+            "telephones": [
+                {
+                    "type":"fixe",
+                    "numero": "01 23 45 67 89"
+                },
+                {
+                    "type":"mobile",
+                    "numero": "06 12 34 56 78"
+                }
+            ],
+            "emails": [
+                {
+                    "type":"pro",
+                    "adresse": "John.DOE@b.com"
+                },
+                {
+                    "type":"perso",
+                    "adresse": "John.DOE@crr.com"
+                }
+            ]
+        },
+        {
+            "sexe":"feminin",
+            "nom": "DUPONT",
+            "prenom": "Marie",
+            "adresse": {
+                "numero":7,
+                "voie":{
+                    "type":"impasse",
+                    "nom":"des lilas"
+                },
+                "codePostal": 75000,
+                "ville": "Paris",
+                "pays": "France"
+            },
+            "telephones": [
+                {
+                    "type":"fixe",
+                    "numero": "01 23 45 67 89"
+                },
+                {
+                    "type":"mobile",
+                    "numero": "06 12 34 56 78"
+                }
+            ],
+            "emails": [
+                {
+                    "type":"pro",
+                    "adresse": "marie.dupon@pp.tn"
+                },
+                {
+                    "type":"perso",
+                    "adresse": "fff@td.tn"
+                }
+
+            ]
+        }
+    ]]
+    }
+}

@@ -1,0 +1,46 @@
+{
+  "CATALOG": {
+    "PRODUCTS": [
+      {
+        "NAME": "p1",
+        "PARTNUM": "1",
+        "SPECIFICATIONS": 
+          {
+              "WEIGHT": "100",
+              "POWER": "10"
+          },
+        "PRICE": 
+          {
+              "MSRP": "aaa",
+              "WHOLESALE": "bbb",
+              "STREET": "bbb",
+              "SHIPPING": "chicago"
+          }
+        
+      },
+      {
+          "NAME": "p2",
+          "PARTNUM": "2",
+        "SPECIFICATIONS":
+          {
+            
+              "WEIGHT": "200",
+              "POWER": "20"
+          },
+        "OPTIONS":
+          {"value":"5"}
+        ,
+        "PRICE": 
+          {
+            "value": "1000 ",
+            
+              "MSRP": "aaa",
+              "WHOLESALE": "bbb",
+              "STREET": "bbb",
+              "SHIPPING": "chicago"
+            
+          }
+      }
+    ]
+  }
+}

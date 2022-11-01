@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE CATALOG SYSTEM "catalog.dtd"> -->
+<!-- Make an XML based on the DTD -->
+
+<?xml-model href="schema.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?> <CATALOG>
+    <PRODUCT NAME="p1" PARTNUM="1">
+        <SPECIFICATIONS WEIGHT="100" POWER="10"/>
+        <PRICE MSRP="aaa" WHOLESALE="bbb" STREET="bbb" SHIPPING="chicago">
+            500
+        </PRICE>
+    </PRODUCT>
+    <PRODUCT NAME="p2" PARTNUM="2">
+        <SPECIFICATIONS WEIGHT="200" POWER="20"/>
+        <OPTIONS>
+            5
+        </OPTIONS>
+
+        <PRICE MSRP="aaa" WHOLESALE="bbb" STREET="bbb" SHIPPING="chicago">
+            1000
+        </PRICE>
+
+    </PRODUCT>
+</CATALOG>
