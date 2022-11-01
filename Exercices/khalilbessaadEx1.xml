@@ -1,8 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- DTD has books and articles. -->
 <!-- A book has a general title, names of its authors, his tomes (for each tome its number of pages), general information about the edition (name of the editor, edition location, print location and its ISBN number.) -->
 <!-- An article has a title, names of its authors, publication refrence: journal name, number of pages, publication year and journal number. It can also have a personnal opinion -->
 
-<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE bibliography [
     <!ELEMENT bibliography (book | article)*>
     <!ELEMENT book (title, author+, tome+, edition, opinion?)>
@@ -24,7 +24,7 @@
 ]>
 
 <bibliography>
-    <book>
+    <book> 
         <title>Harry Potter</title>
         <author>J.K. Rowling</author>
         <tome>
